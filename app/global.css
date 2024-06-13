@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-btn {
+    @apply bg-cyan-500 text-white p-4 rounded-3xl text-center;
+}
+
+.secandary-btn {
+    @apply text-white px-4 py-2 rounded-lg focus:outline-none focus:ring;
+}
