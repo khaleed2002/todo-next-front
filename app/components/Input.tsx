@@ -6,7 +6,7 @@ const Input = ({ label, type, name }: Props) => {
                 {label}
             </label>
             <input
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
+                className="w-full px-3 py-2 border text-black border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
                 type={type}
                 id={name}
                 name={name}
